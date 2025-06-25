@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    height: 100%;
+    max-width:100%;
+
+}
+
+body{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:#a092a2;
+   
+
+}
+
+.box{
+    padding: 3rem 3rem;
+    
+    background-color: white;
+    max-width: 70%;
+    min-width:60%;
+    max-height: 80%;
+    min-height: 40%;
+    box-shadow: 4px 8px #8c7f8d;
+    border-radius:1.5rem;
+    max-height:60%;
+}
+
+/* @media(width>=1000px){
+    .box{
+        min-height:30%;
+        height:30%;
+        max-height:45%;
+    }
+} */
+
+/* write your CSS here */
+
+h2{
+    letter-spacing: 0.035rem;
+   
+}
+
+.item{
+    margin-top:1.5rem;
+    
+    max-width: 100%;
+
+    display:flex;
+    flex-wrap: wrap;
+    gap:0.5rem;
+    justify-content: space-evenly;
+
+}
+
+
+.item1,.item2,.item3,.item4,.item5,.item6{
+    background-color:#a092a2 ;
+    color:white;
+    padding:0.7rem 0.9rem;
+    border-radius:1rem;
+    margin-top:0.5rem;
+}
+
+p{
+    margin-top:3rem;
+    font-size:120%;
+    line-height:1rem;
+    margin-bottom:0.6rem;
+    margin-left: 0.1rem;
+}
+
+/* input{
+    display: block;
+    min-width: 80%;
+    max-width: 90%;
+    padding:0.25rem;
+    border-radius:0.75rem;
+    
+} */
+
+.hello,.bye{
+    font-size:120%;
+    line-height:1rem;
+     /* background-color:#a092a2 ; */
+     padding:0.5rem;
+   
+}
+
+.hello{
+    flex:4;
+    overflow: hidden;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bye{
+    font-weight:400;
+}
+
+.input{
+    max-width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    background-color:#a092a2 ;
+    border-radius: 1rem;
+    
+}
